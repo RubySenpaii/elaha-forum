@@ -1,7 +1,7 @@
 "use client";
 import { ReactNode } from "react";
-import ForumHeader from "./Header";
-import ForumFooter from "./Footer";
+import ForumHeader from "./_components/Header";
+import ForumFooter from "./_components/Footer";
 
 export default function ForumLayout({ children }: { children: ReactNode }) {
   return (
