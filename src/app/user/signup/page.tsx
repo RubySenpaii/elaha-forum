@@ -145,7 +145,7 @@ export default function SignUp() {
               <div className="footer-link padding-top--24">
                 <span>
                   Already have an account?
-                  <Link href="/pages/auth/login">Login</Link>
+                  <Link href="/auth/login">Login</Link>
                 </span>
                 <div className="listing padding-top--24 padding-bottom--24 flex-flex center-center">
                   <span>

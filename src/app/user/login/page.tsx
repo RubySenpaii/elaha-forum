@@ -157,7 +157,7 @@ export default function Login() {
               <div className="footer-link padding-top--24">
                 <span>
                   Don&apos;t have an account?
-                  <Link href="/pages/auth/signup">Sign Up</Link>
+                  <Link href="/auth/signup">Sign Up</Link>
                 </span>
                 <div className="listing padding-top--24 padding-bottom--24 flex-flex center-center">
                   <span>

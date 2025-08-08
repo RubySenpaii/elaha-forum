@@ -23,7 +23,7 @@ const ForumHeader = () => {
               </li>
 
               <li className="forum-nav-item">
-                <Link href="/pages/auth/login">Login</Link>
+                <Link href="/auth/login">Login</Link>
               </li>
             </ul>
           </nav>

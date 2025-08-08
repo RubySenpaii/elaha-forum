@@ -3,19 +3,19 @@ import { ReactNode } from "react";
 import ForumLayout from "../../layout";
 import PostForm from "../../_components/PostForm";
 
-const Create = () => {
+const Edit = () => {
   return (
     <>
       <div className="create-post-container">
-        <h1 className="create-post-title">Create New Blog Post</h1>
+        <h1 className="create-post-title">Edit Blog Post</h1>
         <PostForm />
       </div>
     </>
   );
 };
 
-Create.getLayout = function getLayout(page: ReactNode) {
+Edit.getLayout = function getLayout(page: ReactNode) {
   return <ForumLayout>{page}</ForumLayout>;
 };
 
-export default Create;
+export default Edit;
